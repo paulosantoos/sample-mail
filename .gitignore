@@ -1,0 +1,251 @@
+# Directories #
+**/build/
+**/target/
+**/nginx/
+ 
+# OS Files #
+.DS_Store
+ 
+*.class
+ 
+# Package Files #
+*.war
+*.ear
+*.db 
+ 
+######################
+# Windows
+######################
+ 
+# Windows image file caches
+Thumbs.db 
+ 
+# Folder config file
+Desktop.ini
+ 
+ 
+######################
+# OSX
+######################
+ 
+.svn
+ 
+# Thumbnails
+._*
+ 
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Linux
+######################
+*~
+ 
+ 
+######################
+# Eclipse
+######################
+ 
+*.pydevproject
+.metadata
+tmp/
+**/eclipsebin/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+.eclipse-pmd
+
+# External tool builders
+.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+ 
+# CDT-specific
+.cproject
+ 
+# PDT-specific
+.buildpath
+
+# Ignoring .svn folder
+.svn/*
+
+ 
+ 
+######################
+# Hybris 
+######################
+
+# Files
+[Gg]enerated*.java
+**/build.xml
+**/extensioninfo.xsd
+**/hmc.xsd
+**/platformhome.properties
+**/items.xsd
+**/beans.xsd
+*testclasses.xml
+*webtestclasses.xml
+.pmd
+.spring[Bb]eans
+_ui/desktop/common/images/trustedShop.gif
+
+
+# Folders - Hybris Specific
+**/data/
+**/log/
+**/temp/
+.metadata/
+**/sampleconfigurations/**
+**/bin/ext-*/
+**/bin/platform/
+**/RemoteSystemsTempFiles/
+**/.externalToolBuilders/
+**/licenses/
+**/config/customize/
+**/config/languages/
+**/config/licence/
+**/config/security/
+**/config/tcServer/
+**/config/tomcat/
+**/config/solr/
+**/config/readme.txt
+**/config/.classpath
+**/build-tools/
+!hybris/config/solr/instances/default/configsets/backoffice/conf/schema.xml
+!hybris/config/solr/instances/default/configsets/default/conf/schema.xml
+
+
+# Folders - Automagically Generated
+# Patterns ignored on version 2.x (localhost)
+**/classes/**
+**/gensrc/**
+**/hmc/bin/**
+!bin/custom/ext-fliegercommerce/klarnapayment/hmc/bin/klarnapaymenthmc.jar
+**/.recommenders/**
+**/hmc/classes/**
+**/web/addonsrc/**
+**/web/commonwebsrc/**
+**/web/testclasses/**
+**/web/webroot/_ui/addons/**
+**/web/webroot/cmscockpit/**
+**/web/webroot/cockpit/**
+**/web/webroot/productcockpit/**
+**/web/webroot/WEB-INF/addons/**
+**/web/webroot/WEB-INF/classes/**
+**/web/webroot/WEB-INF/messages/addons/**
+**/web/webroot/WEB-INF/tags/addons/**
+**/web/webroot/WEB-INF/tld/addons/**
+**/web/webroot/WEB-INF/views/addons/**
+**/bazaarvoice/resources/feed/**
+**/bin/custom/ext-kpfamily/kpfamilycore/hmc/bin/
+/**bin/custom/ext-kpfamily/kpfamilyhmc/hmc/bin/
+**/hmc/bin/
+**/gensrc/
+**/addonsrc/
+**/commonwebsrc/
+**/config/local.properties
+**/config/localextensions.xml
+**/amazonloginaddon/project.properties
+**/amazonpaymentaddon/project.properties
+**/newsletteraddon/project.properties
+**/paypaladdon/project.properties
+**/fcmarketplaceaddon/project.properties
+**/fliegercommercecheckoutaddon/project.properties
+**/bonussystemaddon/project.properties
+**/httpcontentaddon/project.properties
+**/shortcodeproductinfoaddon/project.properties
+
+
+######################
+# JREBEL
+######################
+
+rebel.xml
+
+
+######################
+# Gradle
+######################
+
+**/config/backup/**
+**/installer/recipes/b2b_acc/**
+**/installer/recipes/b2b_acc_plus/**
+**/installer/recipes/b2c_acc/**
+**/installer/recipes/b2c_acc_cis_server/**
+**/installer/recipes/b2c_acc_oms/**
+**/installer/recipes/b2c_acc_plus/**
+**/installer/recipes/b2c_acc_yaas/**
+**/installer/recipes/b2c_b2b_acc/**
+**/installer/recipes/b2c_b2b_acc_oms/**
+**/installer/recipes/b2c_c4c/**
+**/installer/recipes/b2c_china/**
+**/installer/recipes/b2c_telco/**
+**/installer/recipes/b2c_yforms/**
+**/installer/recipes/china_acc/**
+**/installer/recipes/financial/**
+**/installer/recipes/platform_cluster/**
+**/installer/recipes/platform_only/**
+**/installer/recipes/sap_aom_b2b/**
+**/installer/recipes/sap_aom_b2c/**
+**/installer/recipes/sap_aom_som_b2b_b2c/**
+**/installer/recipes/sap_som_b2b/**
+**/installer/recipes/smartedit_cms/**
+**/installer/recipes/y2ysync/**
+**/installer/recipes/b2b_china/**
+**/installer/recipes/b2c_b2b_acc_cpq/**
+**/installer/recipes/b2c_acc_dockerized/**
+**/installer/recipes/platform_only_dockerized/**
+**/installer/recipes/platform_only_mod_cluster/**
+**/installer/customconfig/
+**/installer/docs/
+**/installer/gradle/
+**/installer/libs/
+**/installer/logs/
+**/installer/work/
+**/installer/.gradle/
+**/installer/build.gradle
+**/installer/gradlew
+**/installer/*.bat
+**/installer/*.sh
+**/installer/JavaVersionChecker.java
+**/installer/README.md
+**/installer/plugins.conf
+**/installer/settings.gradle
+**/installer/orchestrationLibs/
+**/installer/recipes/b2c_acc_dockerized_gridfs/
+**/installer/recipes/b2c_acc_ymkt/
+**/installer/recipes/b2c_b2b_acc_cpq_dockerized/
+**/installer/recipes/b2c_b2b_oms_dockerized/
+**/installer/recipes/b2c_oms_dockerized/
+**/installer/recipes/base_images/
+**/installer/recipes/centralized_logging/
+**/installer/recipes/marketplace_acc/
+**/installer/recipes/marketplace_acc_china/
+**/installer/recipes/platform_only_gridfs_dockerized/
+**/installer/recipes/sap_oms_aom_b2b_b2c/
+**/installer/recipes/test_rolling_update_on_mod_cluster/
+**/installer/recipes/y2ysync_dockerized/
+**/installer/version
+**/installer/recipes/b2b_c4c/
+**/installer/recipes/b2c_acc_cis/
+**/installer/recipes/b2c_acc_cpq_dockerized/
+**/installer/gradle.properties
+**/installer/recipes/b2c_b2b_acc_dp/
+
+
+
+######################
+# IntelliJ
+######################
+**/.idea/**
+**/idea-module-files/**
+**/config/hybris4intellij.properties
+*.iml
+
+out/
